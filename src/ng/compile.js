@@ -351,7 +351,7 @@
  * * **no scope** + **no scope** => Two directives which don't require their own scope will use their parent's scope
  * * **child scope** + **no scope** =>  Both directives will share one single child scope
  * * **child scope** + **child scope** =>  Both directives will share one single child scope
- * * **isolated scope** + **no scope** =>  The isolated directive will use it's own created isolated scope. The other directive will use
+ * * **isolated scope** + **no scope** =>  The isolated directive will use its own created isolated scope. The other directive will use
  * its parent's scope
  * * **isolated scope** + **child scope** =>  **Won't work!** Only one scope can be related to one element. Therefore these directives cannot
  * be applied to the same element.
